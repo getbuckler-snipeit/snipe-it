@@ -7,7 +7,7 @@ services:
     dockerfilePath: Dockerfile
     envVars:
       - key: APP_URL
-        value: https://sleeksnipe.getbuckler.com
+        value: https://getsnipeit.getbuckler.com
       - key: DB_HOST
         fromService:
           type: mysql
@@ -17,7 +17,7 @@ services:
       - key: DB_USERNAME
         value: snipeuser
       - key: DB_PASSWORD
-        value: Small@get25
+        value: strongpassword
       - key: MAIL_MAILER
         value: smtp
       - key: MAIL_HOST
@@ -25,13 +25,13 @@ services:
       - key: MAIL_PORT
         value: 587
       - key: MAIL_USERNAME
-        value: connect@getbuckler.com
+        value: your-outlook@example.com
       - key: MAIL_PASSWORD
-        value: Mydomain@0045
+        value: MAIL_PASSWORD
       - key: MAIL_ENCRYPTION
         value: tls
       - key: MAIL_FROM_ADDRESS
-        value: connect@getbuckler.com
+        value: your-outlook@example.com
       - key: MAIL_FROM_NAME
         value: "Asset Manager"
 
